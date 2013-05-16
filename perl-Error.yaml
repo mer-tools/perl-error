@@ -1,0 +1,23 @@
+Name: perl-Error
+Summary: Error/exception handling in an OO-ish way
+Version: 0.17015
+Release: 2
+Group: Development/Libraries
+License: GPL+ or Artistic
+URL: http://search.cpan.org/dist/Error/
+Sources:
+  - http://www.cpan.org/authors/id/S/SH/SHLOMIF/Error-%{version}.tar.gz
+Description: |
+  The Error package provides two interfaces. Firstly Error provides a
+  procedural interface to exception handling. Secondly Error is a base class
+  for errors/exceptions that can either be thrown, for subsequent catch, or
+  can simply be recorded.
+PkgBR:
+  - perl(Module::Build)
+  - perl(Test::Pod)
+  - perl(Test::Pod::Coverage)
+Configure: none
+Builder: perl
+BuildArch: noarch
+Check: true
+Patches: []
