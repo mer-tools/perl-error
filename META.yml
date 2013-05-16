@@ -1,0 +1,27 @@
+---
+name: Error
+version: 0.17015
+author:
+  - 'Shlomi Fish <shlomif@iglu.org.il>'
+abstract: Error/exception handling in an OO-ish way
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Scalar::Util: 0
+  perl: 5.6.0
+  warnings: 0
+provides:
+  Error:
+    file: lib/Error.pm
+    version: 0.17015
+  Error::Simple:
+    file: lib/Error.pm
+  Error::WarnDie:
+    file: lib/Error.pm
+  Error::subs:
+    file: lib/Error.pm
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
