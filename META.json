@@ -1,0 +1,55 @@
+{
+   "abstract" : "Error/exception handling in an OO-ish way",
+   "author" : [
+      "Shlomi Fish ( http://www.shlomifish.org/ )"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.3901, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Error",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.39"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Scalar::Util" : "0",
+            "perl" : "v5.6.0",
+            "warnings" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Error" : {
+         "file" : "lib/Error.pm",
+         "version" : "0.17020"
+      },
+      "Error::Simple" : {
+         "file" : "lib/Error.pm",
+         "version" : "0.17020"
+      },
+      "Error::WarnDie" : {
+         "file" : "lib/Error.pm",
+         "version" : 0
+      },
+      "Error::subs" : {
+         "file" : "lib/Error.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.17020"
+}

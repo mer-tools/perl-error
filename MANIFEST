@@ -14,6 +14,7 @@ Makefile.PL
 MANIFEST
 META.yml                                 Module meta-data (added by MakeMaker)
 README
+scripts/bump-version-number.pl
 t/01throw.t
 t/02order.t
 t/03throw-non-Error.t
@@ -30,3 +31,4 @@ t/13except-arg0.t
 t/lib/MyDie.pm
 t/pod-coverage.t
 t/pod.t
+META.json
