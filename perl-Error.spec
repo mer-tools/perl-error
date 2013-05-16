@@ -9,8 +9,8 @@ Name:       perl-Error
 # << macros
 
 Summary:    Error/exception handling in an OO-ish way
-Version:    0.17015
-Release:    2
+Version:    0.17020
+Release:    1
 Group:      Development/Libraries
 License:    GPL+ or Artistic
 BuildArch:  noarch
@@ -30,7 +30,7 @@ can simply be recorded.
 
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q -n Error-%{version}
 
 # >> setup
 # << setup
